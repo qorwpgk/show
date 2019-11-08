@@ -21,6 +21,7 @@ String tagline = "Welcome to Web Market!";%>
 <h3><%=tagline %></h3>
 </div>
 </div>
+response.setIntHeader("Refresh",5);
 <%@ include file="footer.jsp" %>
 </body>
 </html>
