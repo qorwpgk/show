@@ -17,7 +17,7 @@ public class Product implements Serializable{
 	public Product(){
 		super();
 	}
-	public Product(String productId, String pname, Integer unInteger){
+	public Product(String productId, String pname, Integer unitPrice){
 		this.productId = productId;
 		this.pname = pname;
 		this.unitPrice = unitPrice;
